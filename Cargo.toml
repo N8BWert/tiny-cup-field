@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 ncomm = "0.1.2"
+tiny-cup-ref = "0.1.0"

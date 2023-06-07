@@ -1,12 +1,13 @@
 extern crate ncomm;
+extern crate tiny_cup_ref;
 
 use ncomm::executor::{simple_multi_executor::SimpleMultiExecutor, Executor};
 
 pub mod camera;
-pub mod referee;
 
 use camera::camera_node::CameraNode;
-use referee::referee_node::RefereeNode;
+
+use tiny_cup_ref::referee_node::RefereeNode;
 
 fn main() {
     let mut referee = RefereeNode::new("referee", 20);

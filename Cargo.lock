@@ -62,6 +62,16 @@ name = "tiny-cup-field"
 version = "0.1.0"
 dependencies = [
  "ncomm",
+ "tiny-cup-ref",
+]
+
+[[package]]
+name = "tiny-cup-ref"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f6deaa3e66455b3bc7d4e1e4c4479647b06188fd6e0e18881018261edf178399"
+dependencies = [
+ "ncomm",
 ]
 
 [[package]]
